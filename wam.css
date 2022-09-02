@@ -1,0 +1,52 @@
+* {
+    color: white;
+    text-align: center;
+}
+body {
+    background: black;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 75px;
+    text-align: center;
+    margin-top: auto;
+}
+
+h2 {
+    font-family: cursive;
+}
+
+.grid {
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: solid white 1px;
+}
+
+.mole {
+    background-size: cover;
+    background-image: url("mole.jpg");
+}
+
+button {
+    color: black;
+    border-radius: 50px;
+    width: 200px;
+    height: 100px;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+button:hover {
+    cursor: pointer;
+}
